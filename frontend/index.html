@@ -1,10 +1,96 @@
+<!--
+Файл: frontend/index.html
+Описание: Главная HTML траница фронтенда
+HTML - HyperText Markup Language (язык гипертекстовой разметки)
+-->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+    <!--
+    <head> - служебная часть документа, неотображается на странице
+    Содержит метаинфармацию, стили, скрипты, заголовок
+    -->
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <!--
+    Метатеа кодировки символов
+    UTF-8 универсальная кодировка, поддерживает русские буквы
+    Без этой строки русский текст может отображаться как "краказябры"
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    Метатег viewport для адаптивного дизайна
+    width=device - width ширина страницы равна ширине устройство
+    initial-scale=1.0 начальный масштаб 100%
+    Важно для мобильных устройств
+
+
+    <title>Учёт товаров на складе | Система управления</title>
+    <! -- Подключаем Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="'stylesheet">
+    <!--
+    Bootstrap - CSS фреймворк для создания адаптивных интервейсов
+    CDN (Content Delivery Network) - сеть доставки контента
+    Преимущества CDN: кеширование, высокая скорость, доступность
+    -->
+
+    <!-- Подключаем наш собственный CSS файл -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Навигационное меню Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primany">
+        <!--
+        Классы Boorstrap:
+        - navbar: базовый класс для навигации
+        - navbar-expand-lg: расширяется на больших экранах
+        - navbar-dark: светлый текст
+        - bg-primary: синий фон (primary color)
+        -->
+        <div class="container">
+         <!-- container:  ограничивает ширину и центрирует -->
+            <a class="navbar-brand" href="#">
+                <strong>Складской учёт</strong>
+            </a>
+            <!-- navbar-brand: логотип ли название сайта -->
+
+        </div>
+    </nav>
+    <!-- Основной контент страницы -->
+    <div class="container mt-4">
+       <!--
+       container: ограничивает ширину контента
+       mt-4: margin-top 4 единицы (отступ сверху)
+       Bootstrap использует систему отступов 0-5
+       -->
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
