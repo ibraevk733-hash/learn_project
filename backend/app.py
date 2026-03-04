@@ -1,9 +1,12 @@
 """
 Основное Flask приложение для API учёта товаров
 """
+
 from flask import Flask, jsonify
 from flask_cors import CORS
 import os
+
+
 
 # Создаём Flask(__name__)
 app = Flask(__name__)
